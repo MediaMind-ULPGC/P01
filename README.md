@@ -1,5 +1,9 @@
 # Práctica 1: Procesamiento de Imágenes, audio y vídeo.
 
+Integrantes:
+- Gerardo León Quintana
+- Susana Suárez Mendoza
+
 ## 1a. Hacer un programa que cargue una imagen y que obtenga y muestre el valor RGB de cada píxel de la imagen sobre el que esté el cursor del ratón.
 Este programa carga una imagen y permite obtener y visualizar el valor RGB de los píxeles de la imagen cuando el cursor del ratón pasa sobre ellos. La información de color (valores RGB) se muestra en pantalla junto al cursor.
 
@@ -34,6 +38,7 @@ cv.destroyAllWindows()
 ```
 
 ## 1b. Hacer un programa para dibujar las siguientes primitivas con el ratón.
+**Flujo del programa**:
 1. **Configuración inicial**: El programa define varias variables clave:
 - `drawing`: Un indicador que detecta si el usuario está dibujando.
 - `mode`: El tipo de figura geométrica a dibujar inicial, que es 'line'.
